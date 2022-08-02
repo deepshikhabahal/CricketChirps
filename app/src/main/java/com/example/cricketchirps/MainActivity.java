@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     int chirps = Integer.parseInt(editText.getText().toString().trim());
 
                     double temp = ((chirps / 3.0) + 4);
-                    String text = "The approximate temperature outside " +
+                    String text = "The approx temperature outside " +
                             "is " + formatter.format(temp) + " degrees Celsius";
 
                     textView.setText(text);
